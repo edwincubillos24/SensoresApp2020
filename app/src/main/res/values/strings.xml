@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SensoresApp2020</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sensor">Sensor</string>
+    <string name="lista">Lista de Sensores</string>
+    <string name="magnetico">Sensor Magnético</string>
+    <string name="informacion">INFORMACIÓN DEL SENSOR</string>
+    <string name="proximidad">Sensor de Proximidad</string>
+    <string name="luz">Sensor de Luz</string>
+    <string name="acelerometro">Acelerometro</string>
+    <string name="rotacion">Sensor de Rotación</string>
+    <string name="orientacion">Sensor de Orientación</string>
+</resources>

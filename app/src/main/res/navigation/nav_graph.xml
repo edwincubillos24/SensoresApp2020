@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/listaSensoresFragment">
+
+    <fragment
+        android:id="@+id/listaSensoresFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.ListaSensoresFragment"
+        android:label="fragment_lista_sensores"
+        tools:layout="@layout/fragment_lista_sensores" >
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_busquedaSensoresFragment"
+            app:destination="@id/busquedaSensoresFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_magneticoFragment"
+            app:destination="@id/magneticoFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_proximidadFragment"
+            app:destination="@id/proximidadFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_luzFragment"
+            app:destination="@id/luzFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_acelerometroFragment"
+            app:destination="@id/acelerometroFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_rotacionFragment"
+            app:destination="@id/rotacionFragment" />
+        <action
+            android:id="@+id/action_listaSensoresFragment_to_orientacionFragment"
+            app:destination="@id/orientacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/busquedaSensoresFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.BusquedaSensoresFragment"
+        android:label="fragment_busqueda_sensores"
+        tools:layout="@layout/fragment_busqueda_sensores" />
+    <fragment
+        android:id="@+id/magneticoFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.MagneticoFragment"
+        android:label="fragment_magnetico"
+        tools:layout="@layout/fragment_magnetico" />
+    <fragment
+        android:id="@+id/proximidadFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.ProximidadFragment"
+        android:label="fragment_proximidad"
+        tools:layout="@layout/fragment_proximidad" />
+    <fragment
+        android:id="@+id/luzFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.LuzFragment"
+        android:label="fragment_luz"
+        tools:layout="@layout/fragment_luz" />
+    <fragment
+        android:id="@+id/acelerometroFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.AcelerometroFragment"
+        android:label="fragment_acelerometro"
+        tools:layout="@layout/fragment_acelerometro" />
+    <fragment
+        android:id="@+id/rotacionFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.RotacionFragment"
+        android:label="fragment_rotacion"
+        tools:layout="@layout/fragment_rotacion" />
+    <fragment
+        android:id="@+id/orientacionFragment"
+        android:name="com.edwinacubillos.sensoresapp2020.OrientacionFragment"
+        android:label="fragment_orientacion"
+        tools:layout="@layout/fragment_orientacion" />
+</navigation>
